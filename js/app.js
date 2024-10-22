@@ -63,7 +63,7 @@ function mostrarResultado(autos){
         const autoHTML= document.createElement('p');
         const {marca, modelo, year, puertas, transmision, precio, color} = auto;    
         autoHTML.textContent = `
-            ${marca} ${modelo} - ${year} - ${puertas} Puertas - Transmición: ${transmision} - Precio: ${precio} - Color: ${color}
+            ${marca} ${modelo} - ${year} - ${puertas} Puertas - Transmisión: ${transmision} - Precio: ${precio} - Color: ${color}
 
         
         `;
