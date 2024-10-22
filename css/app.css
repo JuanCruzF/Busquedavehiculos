@@ -1,0 +1,89 @@
+body {
+    background-color: #2f3e46;
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+.titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem;
+    padding: 3rem 0;
+    margin: 0;
+    color: #fff;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem;
+    padding: 3rem 0;
+    margin: 0;
+    color: black;
+}
+.contenedor {
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+p {
+    font-size: 2rem;
+}
+h1, p {
+    text-align: center;
+}
+form {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 4rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#app p {
+    text-align: left !important;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+#resultado p {
+    margin: 0;
+    padding: 2rem;
+    border-bottom: 1px solid #e1e1e1;
+    color: #555;
+}
+#resultado p span {
+    font-weight: bold;
+    color: #000;
+}
+#resultado p:last-of-type {
+    border: none;
+}
+.alerta {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+.error {
+    background-color: #e74c3c;
+}
+
+.sitio-web {
+    color: #fff;
+    display: block;
+    font-size: 4rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.sitio-web:hover {
+    color: #f1c40f;
+}
