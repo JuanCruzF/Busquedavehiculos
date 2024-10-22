@@ -110,7 +110,7 @@ function noResultado(){
     limpiarHTML();
     const noResultado = document.createElement('div');
     noResultado.classList.add('alerta', 'error');
-    noResultado.textContent = 'No tenemos vehículos disponibles. Disculpas!'
+    noResultado.textContent = 'Vehículo no disponible.'
     resultado.append(noResultado);
 }
 
